@@ -7,7 +7,7 @@ output: html_document
 
 ## Run QC on raw RNAseq reads in unix
 
-Similar to FastX Toolobox, we will use a similar program called Trimmomatic to both QC and pair raw reads. In the following example, I show how to run Trimmomatic on a single end (SE) file and paired end (PE) files. Our coral samples are 150 bp PE reads, so we will use the PE mode.
+Similar to the FastX Toolobox, we will use a program called Trimmomatic to both QC and pair raw reads. In the following example, I show how to run Trimmomatic on a single end (SE) file and paired end (PE) files. Our coral samples are 150 bp PE reads, so we will use the PE mode.
 
 Single End (SE) Mode:
 ```{bash, eval=FALSE}
