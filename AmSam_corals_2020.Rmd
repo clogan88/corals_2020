@@ -2,7 +2,9 @@
 title: "AmSam_corals_2020"
 author: "Cheryl Logan"
 date: "5/5/2020"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ## Run QC on raw RNAseq reads in unix
